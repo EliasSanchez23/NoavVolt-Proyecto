@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Carrito</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="custom-background">
+  <div class="container mt-4">
+    <h2 class="text-center mb-4" style="color: #004d99;">Carrito de Compras</h2>
+
+    <!-- Lista de productos en el carrito -->
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/img/ipad.png" class="img-fluid rounded-start" alt="iPad Air">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">iPad Air</h5>
+                <p class="card-text">Precio: $10.000.000</p>
+                <p class="card-text">Cantidad: 1</p>
+                <button class="btn btn-danger">Eliminar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repite el mismo bloque de card para cada producto en el carrito -->
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/img/earpods.png" class="img-fluid rounded-start" alt="EarPods">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">EarPods</h5>
+                <p class="card-text">Precio: $200.000</p>
+                <p class="card-text">Cantidad: 2</p>
+                <button class="btn btn-danger">Eliminar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Resumen del carrito -->
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Resumen de la Compra</h5>
+            <p class="card-text">Subtotal: $10.400.000</p>
+            <p class="card-text">Impuestos: $200.000</p>
+            <p class="card-text">Total: $10.600.000</p>
+            <button class="btn btn-primary w-100">Proceder al Pago</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top footer-white">
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2024 NovaVolt</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i></a></li>
+    </ul>
+  </footer>
+</ion-content>
